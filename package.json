@@ -1,0 +1,26 @@
+{
+  "name": "arc-trip",
+  "private": true,
+  "version": "0.0.1",
+  "description": "arc-trip",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "4.6.0",
+    "@types/googlemaps": "^3.36.5",
+    "firebase": "^6.1.1",
+    "rxfire": "^3.5.1",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.1.2"
+  }
+}

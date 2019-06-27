@@ -1,0 +1,36 @@
+app-place .t-slider-container {
+    background-color: #f5f5f5;
+    position: relative;
+    --bullet-background: white;
+}
+
+app-place .t-slider-container.t-loading {
+    min-height: 300px;
+}
+
+app-place .t-slider-container .swiper-pagination-bullet {
+    opacity: .7;
+}
+
+app-place .t-slider-container ion-back-button {
+    position: absolute;
+    
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+    border-radius: 25%;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 4px;
+}
+
+
+app-place img {
+    width: 100%  !important;
+    height: 300px !important;
+    object-fit: cover !important;
+}
+
+app-place input {
+    border: none;
+    outline-width: 0;
+}
